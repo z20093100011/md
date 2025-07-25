@@ -260,7 +260,7 @@ async function copy() {
       </div>
 
       <!-- 文章信息（移动端隐藏） -->
-      <PostInfo class="hidden sm:inline-flex" />
+      <!-- <PostInfo class="hidden sm:inline-flex" /> -->
 
       <!-- 设置按钮 -->
       <Button
