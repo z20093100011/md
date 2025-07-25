@@ -13,6 +13,7 @@ import vueDevTools from 'vite-plugin-vue-devtools'
 
 export default defineConfig({
   base: '/',
+  // base: process.env.SERVER_ENV === `NETLIFY` ? `/` : `/md/`,
   define: { process },
   envPrefix: [`VITE_`, `CF_`],
   plugins: [
