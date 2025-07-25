@@ -207,7 +207,7 @@ async function copy() {
         </MenubarMenu>
         <EditDropdown />
         <StyleDropdown />
-        <HelpDropdown />
+        <!-- <HelpDropdown /> -->
       </Menubar>
     </div>
 
